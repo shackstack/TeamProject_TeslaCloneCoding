@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Add] Invoice 부분 추가.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ShopCart/ShopCartBody.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShopCart/ShopCartBody.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ShoppingCart/ShoppingCart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShoppingCart/ShoppingCart.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2EVjsNloo3PSYC1EWGqwVQbQM78" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jinwookkim/Desktop/Sparta/React/teslaclone/src/redux/modules&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/redux/modules" />
+      <recent name="$PROJECT_DIR$/public/assets/ShopMain" />
+      <recent name="$PROJECT_DIR$/public/Carousel" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/ShopFooter" />
+      <recent name="$PROJECT_DIR$/public/assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbe8075a-0988-42c2-99ce-a3e800e801dd" name="Changes" comment="[Fix] 오탈자 수정." />
+      <created>1662687852338</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662687852338</updated>
+      <workItem from="1662687853673" duration="1038000" />
+      <workItem from="1662688896933" duration="2446000" />
+      <workItem from="1662695816823" duration="17214000" />
+      <workItem from="1662718962577" duration="7953000" />
+      <workItem from="1662792065550" duration="4897000" />
+      <workItem from="1663106387725" duration="12266000" />
+      <workItem from="1663200582199" duration="15000" />
+      <workItem from="1663200624514" duration="24575000" />
+    </task>
+    <task id="LOCAL-00007" summary="[Add] Shop 메인 페이지 슬라이더 추가.">
+      <created>1662707647175</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662707647175</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[Add] 슬라이더 오버레이 추가.">
+      <created>1662708437078</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662708437078</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[Fix] Fix minor issues.">
+      <created>1662708971763</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662708971763</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[Add] 메인 페이지 쇼케이스 추가.">
+      <created>1662712887042</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662712887042</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[Add] 의류 쇼케이스 추가.">
+      <created>1662714843497</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1662714843497</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[Add] 샵내브바 왼쪽 부분 추가.">
+      <created>1662782989069</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662782989069</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[Add] 샵내브바 중앙 부분 추가.">
+      <created>1662783305135</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662783305135</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[Add] 샵내브바 오른쪽 부분 추가.">
+      <created>1662786145771</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662786145771</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[Add] 샵내브바 항목 호버 효과 추가.">
+      <created>1662786680517</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1662786680517</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[Delete] App.js 삭제.">
+      <created>1662787080208</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1662787080208</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[Delete] 쓸모 없는 파일들 정리.">
+      <created>1662787243666</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1662787243666</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[Fix] img alt 수정.">
+      <created>1662787333227</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1662787333227</updated>
+    </task>
+    <task id="LOCAL-00019" summary="[Fix] Fix minor issues.">
+      <created>1662787661385</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1662787661385</updated>
+    </task>
+    <task id="LOCAL-00020" summary="[Fix] Fix minor issues.">
+      <created>1662787789434</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1662787789434</updated>
+    </task>
+    <task id="LOCAL-00021" summary="[Add] 샵 메인페이지 사이버휘슬 파트 추가.">
+      <created>1662940814327</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1662940814327</updated>
+    </task>
+    <task id="LOCAL-00022" summary="[Fix] 오버레이 메뉴 고침.">
+      <created>1662943856490</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1662943856490</updated>
+    </task>
+    <task id="LOCAL-00023" summary="[Fix] 오버레이 메뉴 고침.">
+      <created>1662945716341</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1662945716341</updated>
+    </task>
+    <task id="LOCAL-00024" summary="[Fix] 오버레이 메뉴 고침.">
+      <created>1662945906893</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1662945906893</updated>
+    </task>
+    <task id="LOCAL-00025" summary="[Fix] 샵 메인 컨테이너 블러 효과 추가.">
+      <created>1662946426161</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1662946426161</updated>
+    </task>
+    <task id="LOCAL-00026" summary="[Fix] 컨테이너 클릭 시 오버레이 메뉴 슬라이드 아웃 되게 수정.">
+      <created>1662946585015</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1662946585015</updated>
+    </task>
+    <task id="LOCAL-00027" summary="[Fix] 소소한 수정.">
+      <created>1662946755801</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1662946755801</updated>
+    </task>
+    <task id="LOCAL-00028" summary="[Fix] 소소한 수정.">
+      <created>1662948226534</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1662948226534</updated>
+    </task>
+    <task id="LOCAL-00029" summary="[Add] 카테고리에 따른 카탈로그 헤더 분기 추가.">
+      <created>1662950865977</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1662950865977</updated>
+    </task>
+    <task id="LOCAL-00030" summary="[Add] 카탈로그 맵퍼 유틸 추가.">
+      <created>1662951176628</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1662951176628</updated>
+    </task>
+    <task id="LOCAL-00031" summary="[Add] 샵 카트 페이지 추가.">
+      <created>1662960065015</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1662960065015</updated>
+    </task>
+    <task id="LOCAL-00032" summary="[Add] Shop FAQ.">
+      <created>1662963091058</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1662963091058</updated>
+    </task>
+    <task id="LOCAL-00033" summary="[Add] 빈 카트 페이지 추가.">
+      <created>1662964390926</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1662964390926</updated>
+    </task>
+    <task id="LOCAL-00034" summary="[Add] yarn install.">
+      <created>1662964665069</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1662964665069</updated>
+    </task>
+    <task id="LOCAL-00035" summary="[Fix] 푸터가 딸려올라오는 문제 수정.">
+      <created>1663025896240</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1663025896240</updated>
+    </task>
+    <task id="LOCAL-00036" summary="[Fix] Typos.">
+      <created>1663026753159</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1663026753159</updated>
+    </task>
+    <task id="LOCAL-00037" summary="[Fix] Typos.">
+      <created>1663027062193</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1663027062193</updated>
+    </task>
+    <task id="LOCAL-00038" summary="[Fix] Typos.">
+      <created>1663027884893</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1663027884893</updated>
+    </task>
+    <task id="LOCAL-00039" summary="[Add] getProductSlice &amp; getIndividualProductSlice.">
+      <created>1663029547482</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1663029547482</updated>
+    </task>
+    <task id="LOCAL-00040" summary="[Add] cartSlice.">
+      <created>1663030050215</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1663030050215</updated>
+    </task>
+    <task id="LOCAL-00041" summary="[Add] 디스패처 연결.">
+      <created>1663031694797</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1663031694797</updated>
+    </task>
+    <task id="LOCAL-00042" summary="[Fix] 소소한 수정.">
+      <created>1663032354003</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1663032354003</updated>
+    </task>
+    <task id="LOCAL-00043" summary="[Fix] 오탈자 수정.">
+      <created>1663033836814</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1663033836814</updated>
+    </task>
+    <task id="LOCAL-00044" summary="[Update] redux-logger 추가.">
+      <created>1663200723527</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1663200723527</updated>
+    </task>
+    <task id="LOCAL-00045" summary="[Add] 카탈로그 상품 불러와서 뿌려주기.">
+      <created>1663204779916</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1663204779916</updated>
+    </task>
+    <task id="LOCAL-00046" summary="[Add] 상품 상세 페이지 추가.">
+      <created>1663209899242</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1663209899242</updated>
+    </task>
+    <task id="LOCAL-00047" summary="[Add] 수량 조절 부분 추가.">
+      <created>1663210585680</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1663210585680</updated>
+    </task>
+    <task id="LOCAL-00048" summary="[Add] useQuantity Hook.">
+      <created>1663210889551</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1663210889551</updated>
+    </task>
+    <task id="LOCAL-00049" summary="[Add] 장바구니 추가 버튼 추가.">
+      <created>1663211068260</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1663211068260</updated>
+    </task>
+    <task id="LOCAL-00050" summary="[Add] formatContent.js">
+      <created>1663213147997</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1663213147998</updated>
+    </task>
+    <task id="LOCAL-00051" summary="[Add] 배지 추가.">
+      <created>1663215141276</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1663215141276</updated>
+    </task>
+    <task id="LOCAL-00052" summary="[Add] 장바구니 로직 구현.">
+      <created>1663220593918</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1663220593918</updated>
+    </task>
+    <task id="LOCAL-00053" summary="[Add] 장바구니 화면 구현.">
+      <created>1663227912531</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1663227912531</updated>
+    </task>
+    <task id="LOCAL-00054" summary="[Add] 장바구니 상세 이미지 추가.">
+      <created>1663228681728</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1663228681728</updated>
+    </task>
+    <task id="LOCAL-00055" summary="[Add] Invoice 부분 추가.">
+      <created>1663229659542</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1663229659542</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="[Add] 카테고리에 따른 카탈로그 헤더 분기 추가." />
+    <MESSAGE value="[Add] 카탈로그 맵퍼 유틸 추가." />
+    <MESSAGE value="[Add] 샵 카트 페이지 추가." />
+    <MESSAGE value="[Add] Shop FAQ." />
+    <MESSAGE value="[Add] 빈 카트 페이지 추가." />
+    <MESSAGE value="[Add] yarn install." />
+    <MESSAGE value="[Fix] 푸터가 딸려올라오는 문제 수정." />
+    <MESSAGE value="[Fix] Typos." />
+    <MESSAGE value="[Add] getProductSlice &amp; getIndividualProductSlice." />
+    <MESSAGE value="[Add] cartSlice." />
+    <MESSAGE value="[Add] 디스패처 연결." />
+    <MESSAGE value="[Fix] 소소한 수정." />
+    <MESSAGE value="[Fix] 오탈자 수정." />
+    <MESSAGE value="[Update] redux-logger 추가." />
+    <MESSAGE value="[Add] 카탈로그 상품 불러와서 뿌려주기." />
+    <MESSAGE value="[Add] 상품 상세 페이지 추가." />
+    <MESSAGE value="[Add] 수량 조절 부분 추가." />
+    <MESSAGE value="[Add] useQuantity Hook." />
+    <MESSAGE value="[Add] 장바구니 추가 버튼 추가." />
+    <MESSAGE value="[Add] formatContent.js" />
+    <MESSAGE value="[Add] 배지 추가." />
+    <MESSAGE value="[Add] 장바구니 로직 구현." />
+    <MESSAGE value="[Add] 장바구니 화면 구현." />
+    <MESSAGE value="[Add] 장바구니 상세 이미지 추가." />
+    <MESSAGE value="[Add] Invoice 부분 추가." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Add] Invoice 부분 추가." />
+  </component>
+</project>
