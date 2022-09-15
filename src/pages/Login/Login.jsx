@@ -3,13 +3,15 @@ import { Link } from "react-router-dom";
 import Header from "../../components/Header/Header";
 
 import { useState } from "react";
-import useLogin from "../../utils/useLogin";
+import useLogin from "../../Hooks/useLogin";
 import { useNavigate } from "react-router-dom";
 
 const LogIn = () => {
   const [nickname, setNickname] = useState("");
   const [password, setPassword] = useState("");
+
   const navi = useNavigate();
+
   const onChangeNickname = (e) => {
     setNickname(e.target.value);
   };

@@ -8,7 +8,7 @@ import Header from "../../components/Header/Header";
 import { useNavigate } from "react-router-dom";
 
 import { useState } from "react";
-import useSignup from "../../utils/useSignup";
+import useSignup from "../../Hooks/useSignup";
 import styled from "styled-components";
 
 const SignUp = () => {
